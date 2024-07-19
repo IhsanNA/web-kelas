@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 135vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: relative;
+    bottom: 0;
+}
+
+.content {
+    background-color: #04040a;
+    /* background-color: #04060c; */
+    /* background-color: #03060e; */
+    /* background-color: #03050c; */
+}
+
+/* structure */
+.tree {
+    text-align: center;
+}
+
+.tree ul {
+    padding-top: 20px;
+    position: relative;
+    transition: .5s;
+}
+
+.tree li {
+    display: inline-table;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    transition: .5s;
+    margin: 5px;
+    right: 9px;
+   
+}
+
+.tree h1 {
+    color: grey;
+}
+
+.tree a {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-grid;
+    border-radius: 5px;
+    text-decoration-line: none;
+    transition: .5s;
+}
+
+.tree a img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px !important;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.tree a span {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    padding: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#Hover:hover{
+  scale: 1.05;
+}
+
+.text-anggota {
+    text-align: center;
+    color: grey;
+}
+
+/* anggota */
+.tree2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.tree2 ul {
+    position: relative;
+    transition: .5s;
+}
+
+.tree2 li {
+    display: inline-table;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    transition: .5s;
+    margin: 15px;
+}
+
+.tree2 a{
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-grid;
+    border-radius: 5px;
+    text-decoration-line: none;
+    transition: .5s;
+}
+
+.tree2 a img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px !important;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.tree2 a span {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    padding: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
+.structure {
+    text-align: center;
+    color: azure;
+}
